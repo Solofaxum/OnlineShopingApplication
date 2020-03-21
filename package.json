@@ -1,0 +1,40 @@
+{
+  "name": "techonlineshopping",
+  "version": "1.0.0",
+  "description": "Tech Online Shopping Project",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "helmet": "^3.21.3",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "pdfkit": "^0.11.0",
+    "stripe": "^8.32.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Solomon G., Henok M., Paulos G.",
+  "license": "ISC"
+}
